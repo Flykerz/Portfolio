@@ -29,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -2559,6 +2560,10 @@ input, select, textarea {
 
 		.work-item .image {
 			margin: 0 0 1.5em 0;
+			display: block;
+			width: 100%; /* Ajuste la largeur à 100% de son conteneur (article) */
+			height: auto; /* Hauteur ajustée automatiquement pour maintenir les proportions */
+			max-width: 100%; /* Assure que l'image ne dépasse pas la largeur de son conteneur */
 		}
 
 		.work-item h3 {
